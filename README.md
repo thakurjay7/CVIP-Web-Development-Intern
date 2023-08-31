@@ -1,11 +1,11 @@
 # CVIP-Web-Development-Intern
 PHASE - 1:
-Normal Task - 
-Golden Task -
+Normal Task | Quote Generator - https://lighthearted-beijinho-869a6b.netlify.app
+Golden Task | File Converter - https://precious-basbousa-e65e6d.netlify.app
 
 Phase - 2:
-Normal Task -
-Golden Task - 
+Normal Task | Portfolio - https://reliable-tanuki-e15627.netlify.app
+Golden Task | E-commerce - https://superb-marshmallow-b735da.netlify.app
 
 I'm thrilled to announce the completion of four impressive projects during my journey as a web developer! 🎉 These projects showcase my skills and dedication to creating useful and entertaining websites.
 
@@ -18,3 +18,5 @@ Among my accomplishments is the crafting of a captivating portfolio website that
 Lastly, I undertook the creation of a basic e-commerce website, delving into the complexities of online transactions and user experience. This experience enhanced my understanding of user-centered design and practical application development.
 
 I extend my profound gratitude to Coder's Cave for affording me this invaluable opportunity within their prestigious internship program. The experiences gathered during my tenure have undeniably enriched my proficiency as a Python developer. I am immensely thankful for the guidance and mentorship that have shaped my growth.
+
+Linkedin - https://www.linkedin.com/in/jayank-singh/
