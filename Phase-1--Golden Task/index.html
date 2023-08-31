@@ -1,0 +1,168 @@
+<!-- CODERS CAVE -->
+<!-- WEB DEVELOPMENT INTERN -->
+<!-- Phase - 1 | Golden Task -->
+<!-- File Convertor -->
+
+<!-- Pdf Convertor  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFMorphix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- NavBar Design -->
+        <nav class="pdfMorphix-navbar">
+            <div>
+                <!-- Navbar - Main PDFMorphix Logo -->
+                <img class="pdfMorphix-logo" src="/PDFMorphix-Logo.png" alt="PDFMorphix Logo">
+            </div>
+            <div class="navbar-items">
+                <!-- Select Language Dropdown -->
+                <div class="dropdown-container">
+                    <img class="globe-icon" src="Globe Icon.png" alt="Globe Icon">
+                    <div >
+                        <select name="language" id="language" class="dropdown-language">
+                            <option value="english" selected >English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+
+                </div>
+                <!-- SignIn Button -->
+                <div class="sign-in">
+                    <a href="#"><p style="font-weight: 600;">Sign In</p></a>
+                </div>
+                <!-- My Files -->
+                <div class="my-files">
+                    <a href="#"><p style="font-weight: 600;">My Files</p></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main><section>
+        <div>
+            <div class="main-heading">
+                <h1>PDFMorphix</h1>
+                <h2>File Converter</h2>
+                <p>Convert your PDFs to <span class="word" id="words">Doc</span></p>
+            </div>
+            <!-- Select files box -->
+            <div class="converter-wrapper">
+                <!-- Inside .converter-wrapper -->
+                <div class="select-file">
+                    <button class="selectPdfButton" id="selectPdfButton">Select PDF File</button>
+                    <div id="fileInfo" class="file-info"></div>
+                </div>
+                <!--  -->
+                <div class="converter-info">
+                    <div>
+                        <select class="pdf-box" id="convertToSelect">
+                        <option value="pdf" selected>Pdf</option>
+                        </select>
+                    </div>
+                        <span>to</span> 
+                        <img class="forward-arrow" src="/forward arrow.png" alt="">
+                    <div>
+                        <select class="convert-to-file-box" id="convertToSelect">
+                        <option value="doc" selected >...</option>
+                        <option value="doc">DOC</option>
+                        <option value="ppt">PPT</option>
+                        <option value="excel">EXCEL</option>
+                        <option value="jpg">JPG</option>
+                        <option value="png">PNG</option>
+                        <option value="txt">TEXT</option>
+                        </select>
+                    </div>
+                    <div class="convert-button">
+                        <button class="">Convert</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-to-convert">
+        <div class="how-to">
+            <div class="how-to-convert-img">
+                <img src="/how-to-convert img.png" alt="">
+            </div>
+            <div class="how-to-convert-text">
+                <h5>How To Convert PDF to JPG Online</h5>
+                <p>&nbsp;&nbsp;  1. Drag and drop your file in the PDF. <br>
+                    &nbsp;&nbsp;  2. Select file type to convert. <br>
+                    &nbsp;&nbsp;  3. Click on ‘Convert’  and wait for the process to complete. <br>
+                    &nbsp;&nbsp;  4. Download the converted files.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="auto-count">
+        <div class="auto-count-container">
+            <div class="auto-count-1">
+                <h3 data-target="400">400</h3>
+                <p>No. of Pdf Converted</p>
+            </div>
+            <div class="auto-count-2">
+                <div class="count-text">
+                    <h3 data-target="2400">230 </h3>
+                </div>
+                <p>Size of Converted file (GB)</p>
+            </div>
+        </div>
+    </section>
+    </main>
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer-columns">
+
+                <ul>
+                    <h3>Company</h3>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <h3>Product</h3>
+                    <li>Pricing</li>
+                    <li>Developer</li>
+                    <li>Template</li>
+                </ul>
+                <ul>
+                    <h3>Apps</h3>
+                    <li>Download PDFMorphix</li>
+                    <li>Android App</li>
+                    <li>Windows App</li>
+                </ul>
+            </div>
+            <hr style="margin: 30px 0px 20px;">
+            <div class="footer-columns-2">
+                <ul>
+                    <li>About</li>
+                    <li>FAQs</li>
+                    <li>Terms of use</li>
+                    <li>Privacy policy</li>
+                    <li>Pricing</li>
+                    <li>Sitemap</li>
+                    <li>Refer & earn</li>
+                    <li>Become a problem setter</li>
+                    <li>Blog</li>
+                </ul>
+    
+            </div>
+            <div class="footer-columns-2">
+                <img src="/Logo/linkedin_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/instagram_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/medium_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/twitter_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/facebook_grey.png" alt="" width="20px" height="20px">
+                
+            </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
