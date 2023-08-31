@@ -1,0 +1,500 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+
+    
+#header{
+    position: fixed; 
+    margin: -9rem 0;
+    /* gap: 17rem; */
+    width: 100%;
+    height: 4.5rem;
+}
+#header.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+    z-index: 1;
+    background: linear-gradient(to left,aqua,black);
+    /* box-shadow: 5px -1px 12px -5px grey; */
+    text-emphasis-color: black;
+}
+.link_item a{
+    color: aqua;
+    font-size: 2rem;
+}
+
+.logo{
+    color: aqua;
+    font-size: 1.2rem;
+    transition: transform .2s;
+    display: flex;
+    gap: 0.6rem;
+    padding-left: 5rem;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.logo span{
+    color: aqua;
+}
+
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+    
+}
+a, .btn{
+    transition: all 300s ease-in-out;
+}
+
+nav, .links{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    /* height: 15vh; */
+}
+.links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.7rem;
+    padding-right: 8rem;
+    
+}
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+    text-decoration-color: aqua;
+    position: relative;
+}
+
+ nav ul li a::after{
+    background-color: #fff;
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background: white;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+#container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+    margin-top: 9rem;
+}
+#container_right img{
+    border-radius: 55%;
+    width: 75%;
+    height: 50vh;
+    border-style: solid;
+    border-color: black aqua aqua black;
+    margin: 1rem 0 0 4rem;
+   
+    
+}
+
+#container_right img:hover{
+    background-image: linear-gradient( rgba(0,0,0,0.1),aqua);
+    transition: ease-out 300ms;
+}
+#container_right{
+    width: 80%;
+    padding-left: 0;
+}
+#container_left{
+    padding-left: 5rem;
+    margin-top: 5rem;
+    font-size: 40px;
+
+}
+
+.btn{
+    color: black;
+    width: 11rem;
+    height: 3rem;
+    background-color: aqua;
+    margin-top: 4rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(68, 65, 65);
+    color: aqua;
+    box-shadow: 5px 5px white;
+}
+#container_left h3{
+    color: aqua;
+    margin-top: 0.6rem;
+}
+#container_left p{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.about_me{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10rem 0;
+    
+}
+.about_left img{
+    width: 50%;
+    height: auto;
+    margin-left: 10rem;
+    border-radius: 2rem;
+}
+.about_right{
+    font-size: 1.6rem;
+}
+.about_right span{
+    color: aqua;
+}
+.about_right p{
+    font-size: 1.3rem;
+}
+.tab{
+    display: flex;
+    margin: 2.5rem 0 3.2rem;
+}
+.tab_links{
+    margin-right: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+
+}
+.tab_links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab_links.active_link::after{
+    width: 60%;
+}
+.tab_contents ul{
+    list-style: none;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+
+}
+.tab_contents{
+    display: none;
+}
+.tab_contents.active_tab{
+    display: block;
+}
+.title_name h3{
+    font-size: 4rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.title_name span{
+    color: aqua;
+    padding-left: 0.4rem;
+}
+.project_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    margin: 7rem;
+}
+.work{
+    background-color: aqua;
+    justify-content: center;
+    border-radius: 2rem;
+    background: linear-gradient(aqua,rgba(0,0,0,0.1));
+    height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: transform .2s;
+    
+    
+}
+.work p{
+    color:black;
+    font-size: 2rem;
+    font-weight: 650;
+    margin-bottom: 0.6rem;
+    
+}
+.work a{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: black;
+    padding-top: 1rem;
+    padding-right: 0.6rem;
+}
+.work:hover{
+    transform: scale(1.1);
+}
+.fas, .fa-solid {
+    font-weight: 300;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 17rem;
+}
+.contact span{
+    color: aqua;
+    margin-left: 0.8rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 11rem 4rem 1rem;
+}
+.conatct_left p i{
+    margin-right: 0.6rem;
+    color: aqua;
+}
+.conatct_left p{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.social{
+    font-size: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+
+}
+.social a{
+    
+    transition: transform .2s;
+    display: inline-block;
+}
+.social a:hover{
+    color: aqua;
+    transform: scale(1.2);
+}
+.conatct_right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    color: aqua;
+    margin: 0.6rem 0;
+    padding: 0.5rem;
+}
+form .btn{
+    
+    cursor: pointer;
+    transition: scale(1.3);
+}
+.scrollup{
+    right: 3rem;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0 ;
+    background: #262626;
+}
+#close_btn{
+    font-size: 30px;
+    float: right;
+    margin-right: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.menu_btn{
+    font-size: 30px;
+    float: right;
+    margin-right: 2rem;
+    cursor: pointer;
+    display: none;
+}
+#msg{
+    font-size: 1.5rem;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .header{
+        
+        color: aqua;
+        
+    }
+    .links li{
+        display: block;
+    }
+    .logo{
+        width: 80%;
+        padding-left: 0.9rem;
+        font-size: 1rem;
+        text-decoration: none;
+
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_left{
+       display: block;
+        
+    }
+    .conatct_right img{
+        width: 80%;
+        height: 70vh;
+        margin-left: 2rem;
+    }
+ 
+    .about_me{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .about_right{
+        margin-left: 2rem;
+    }
+    .about_left img{
+        margin-left: 1rem;
+        opacity: 0.6;
+        /* width: 10%; */
+        height: 50vh;
+        /* object-fit: fill; */
+        display: none;
+    }
+    .project_list{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2rem;
+    }
+    .work{
+        gap: 1rem;
+    }
+    .work i{
+        color: aqua;
+        margin-bottom: 4rem;
+    }
+    .work a{
+        color: black;
+        font-size: 2rem;
+    }
+    .contact{
+        display: block;
+        /* grid-template-columns: 1fr; */
+    }
+   
+    #menu_btn{
+        display: inline-block;
+    }
+     .links#close-menu-btn{
+        display: flex;
+    
+     }
+     .links{
+        position: fixed;
+        top: 5rem;
+        right: 5%;
+        height: 21%;
+        width: 80%;
+        flex-direction: column;
+        gap: 0;
+        /* z-index: 1; */
+        /* overflow: hidden; */
+        display: none;
+        background: linear-gradient(to right,black,aqua);
+     }
+     .links a{
+        text-align: center;
+        margin-left: 6rem;
+        
+     }
+     
+     .links li:nth-child(2){
+        animation-delay: 200ms;
+     }
+     .links li:nth-child(3){
+        animation-delay: 400ms;
+     }
+    
+    
+     .links li{
+        width: 100%;
+        height: 5.8rem;
+        animation: animateNavItems 400ms linear forwards;
+        transform-origin: right;
+        opacity: 0;
+     }
+     .links li a{
+        background: aqua;
+        color: black;
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+     }
+     @keyframes animateNavItems {
+        0%{
+            transform: rotateZ(-90deg) rotateX(); /*scale(0.1); */
+        }
+        100%{   
+            transform: rotateZ(0) ;/*rotateX(0) scale(1); */
+            opacity: 1;
+        }
+     }
+}
