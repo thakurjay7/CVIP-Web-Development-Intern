@@ -1,1 +1,365 @@
+<!-- CODERS CAVE -->
+<!-- WEB DEVELOPMENT INTERN -->
+<!-- Phase - 2 | Normal Task -->
+<!-- E-Commerce Website -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFMorphix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- NavBar Design -->
+        <nav class="pdfMorphix-navbar">
+            <div>
+                <!-- Navbar - Main PDFMorphix Logo -->
+                <img class="pdfMorphix-logo" src="/PDFMorphix-Logo.png" alt="PDFMorphix Logo">
+            </div>
+            <div class="navbar-items">
+                <!-- Select Language Dropdown -->
+                <div class="dropdown-container">
+                    <img class="globe-icon" src="Globe Icon.png" alt="Globe Icon">
+                    <div >
+                        <select name="language" id="language" class="dropdown-language">
+                            <option value="english" selected >English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+
+                </div>
+                <!-- SignIn Button -->
+                <div class="sign-in">
+                    <a href="#"><p style="font-weight: 600;">Sign In</p></a>
+                </div>
+                <!-- My Files -->
+                <div class="my-files">
+                    <a href="#"><p style="font-weight: 600;">My Files</p></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main><section>
+        <div>
+            <div class="main-heading">
+                <h1>PDFMorphix</h1>
+                <h2>File Converter</h2>
+                <p>Convert your PDFs to <span class="word" id="words">Doc</span></p>
+            </div>
+            <!-- Select files box -->
+            <div class="converter-wrapper">
+                <!-- Inside .converter-wrapper -->
+                <div class="select-file">
+                    <button class="selectPdfButton" id="selectPdfButton">Select PDF File</button>
+                    <div id="fileInfo" class="file-info"></div>
+                </div>
+                <!--  -->
+                <div class="converter-info">
+                    <div>
+                        <select class="pdf-box" id="convertToSelect">
+                        <option value="pdf" selected>Pdf</option>
+                        </select>
+                    </div>
+                        <span>to</span> 
+                        <img class="forward-arrow" src="/forward arrow.png" alt="">
+                    <div>
+                        <select class="convert-to-file-box" id="convertToSelect">
+                        <option value="doc" selected >...</option>
+                        <option value="doc">DOC</option>
+                        <option value="ppt">PPT</option>
+                        <option value="excel">EXCEL</option>
+                        <option value="jpg">JPG</option>
+                        <option value="png">PNG</option>
+                        <option value="txt">TEXT</option>
+                        </select>
+                    </div>
+                    <div class="convert-button">
+                        <button class="">Convert</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-to-convert">
+        <div class="how-to">
+            <div class="how-to-convert-img">
+                <img src="/how-to-convert img.png" alt="">
+            </div>
+            <div class="how-to-convert-text">
+                <h5>How To Convert PDF to JPG Online</h5>
+                <p>&nbsp;&nbsp;  1. Drag and drop your file in the PDF. <br>
+                    &nbsp;&nbsp;  2. Select file type to convert. <br>
+                    &nbsp;&nbsp;  3. Click on ‘Convert’  and wait for the process to complete. <br>
+                    &nbsp;&nbsp;  4. Download the converted files.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="auto-count">
+        <div class="auto-count-container">
+            <div class="auto-count-1">
+                <h3 data-target="400">400</h3>
+                <p>No. of Pdf Converted</p>
+            </div>
+            <div class="auto-count-2">
+                <div class="count-text">
+                    <h3 data-target="2400">230 </h3>
+                </div>
+                <p>Size of Converted file (GB)</p>
+            </div>
+        </div>
+    </section>
+    </main>
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer-columns">
+
+                <ul>
+                    <h3>Company</h3>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <h3>Product</h3>
+                    <li>Pricing</li>
+                    <li>Developer</li>
+                    <li>Template</li>
+                </ul>
+                <ul>
+                    <h3>Apps</h3>
+                    <li>Download PDFMorphix</li>
+                    <li>Android App</li>
+                    <li>Windows App</li>
+                </ul>
+            </div>
+            <hr style="margin: 30px 0px 20px;">
+            <div class="footer-columns-2">
+                <ul>
+                    <li>About</li>
+                    <li>FAQs</li>
+                    <li>Terms of use</li>
+                    <li>Privacy policy</li>
+                    <li>Pricing</li>
+                    <li>Sitemap</li>
+                    <li>Refer & earn</li>
+                    <li>Become a problem setter</li>
+                    <li>Blog</li>
+                </ul>
+    
+            </div>
+            <div class="footer-columns-2">
+                <img src="/Logo/linkedin_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/instagram_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/medium_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/twitter_grey.png" alt="" width="20px" height="20px">
+                <img src="/Logo/facebook_grey.png" alt="" width="20px" height="20px">
+                
+            </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <title>Jayank Singh</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
+<body>
+    <nav id="header" class="header">
+        <div class="logo">
+            <a href="#"><span>Jayank</span> Singh</a>
+        </div>
+        
+        <div>
+            <ul class="links">
+                <li class="link_item">
+                    <li><a href="#about">About</a></li>
+
+                </li>
+                <li class="link_item">
+
+                    <li><a href="#project">Project</a></li>
+                </li>
+                <li class="link_item">
+
+                    <li><a href="#contact">Contact</a></li>
+                </li>
+                
+            </ul>
+            <div class="close_btn" id="close_btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="menu_btn" id="menu_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="container">
+        <div id="container_left" class="container_left">
+            <p>Web Devloper</p>
+            <h3>Hi, guys I am <br><span>Jayank Singh</span></h3>
+            <a href="img/JAY RESUME (1).pdf" download class="btn">Download CV</a>
+        </div>
+        <div id="container_right" class="container_right">
+            <img src="img/man (1).png" alt="">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+        <div class="about_me">
+            <div class="about_left">
+                <img src="img/hacker.png" >
+            </div>
+            <div class="about_right">
+                <h2>About <span>Me</span></h2>
+                <p>
+                    Persuing Bachelor of Technology
+                    students (CSE).
+                    I consider my self a
+                    responsible and hardworking
+                    person.
+                    I am looking foward for an opportunity.
+                    
+        
+
+                </p>
+                <div class="tab" id="tab_link">
+                    <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab_links" onclick="opentab('edu')">Education</p>
+                    
+                </div>
+                <div class="tab_contents active_tab" id="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab_contents" id="edu">
+                    <ul>
+                        <li><span>Collage</span><br> Ashoka Institute of Technology and Management (2020 - 2024)</li>
+                        <li><span>School</span><br> BVMS </li>
+                        
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <div id="project">
+        <div class="title_name">
+            <h3>My <span>Project</span></h3>
+            <div class="project_list">
+                <div class="work">
+                    <p>
+                        Quote Generator
+                        
+                    </p>
+                    
+                            This website generate random code with additional features.
+                            <a href="https://lighthearted-beijinho-869a6b.netlify.app" target="_blank"><i class="fa-solid fa-link fa-xs"></i>Web</a>
+                            <a href="https://github.com/thakurjay7/Quote-Generator.github.io" target="_blank"><i class="fa-brands fa-github fa-xs"></i>Github</a>
+                            
+                    
+                </div>
+                <div class="work">
+                    <p>
+                        E-Commerce website
+                    </p>
+                        An attempt to create a basic E-commerce website.
+                        
+                        <a href="https://superb-marshmallow-b735da.netlify.app"><i class="fa-solid fa-link fa-xs"></i>Web</a>
+                        <a href="https://github.com/thakurjay7/Basic-E-commerce-website.github.io"><i class="fa-brands fa-github fa-xs"></i>Github</a>
+                
+                </div>
+                <div class="work">
+                    <p>
+                    Cutshort Clone
+                    </p>
+                    
+                        I try to create a clone of Cutshort website.
+                        <a href="https://soft-longma-6d558b.netlify.app/"><i class="fa-solid fa-link fa-xs"></i>Web</a>
+                        <a href="https://github.com/thakurjay7/Cutshort-clone.github.io"><i class="fa-brands fa-github fa-xs"></i>Github</a>
+                
+                </div>
+            </div>
+        </div>
+
+   </div>
+       
+   
+    <div id="contact" class="contact">
+        <h2>contact <span> Me</span>
+        </h2>
+        <div class="container">
+            <div class="conatct_left">
+                <p><i class="fa-regular fa-envelope fa-sm"></i>: thakurjayank@gmail.com</p>
+                <p><i class="fa-solid fa-phone fa-xs"></i>: +91-99999999</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/jayank-singh/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/thakurjay7"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact_right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Sumbit</button>
+                </form>
+                <span id="msg">
+                    
+                </span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Right belong to<span>Jayank </span>Singh</p>
+        </div>
+
+    </div>
+    
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwXd9j6zf4X7xG6I493SPiE5O9cb6p6WeKTvIRtgCITy__FZmD2JC9iQvddn_gKVbyC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+  <script src="js/raw.githubusercontent.com_jlmakes_scrollreveal_master_dist_scrollreveal.min.js"></script>
+    <script src="js/style.js"></script>
+
+</body>
+</html>
