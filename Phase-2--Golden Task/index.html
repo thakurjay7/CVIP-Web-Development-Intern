@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- HEADER  -->
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img class="main-logo" src="images/main-logo.png" width="125px" alt="">
+            </div>
+
+            <!-- Search Box -->
+            <input type="text" class="search-box" placeholder="Search...">
+            <i class="fa fa-search search-icon"></i>
+
+            <nav>
+                <ul id="navContent" class="navbar-contant">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/shopping-cart.png"  class="cart-icon" width="30px" height="30px">
+            <img src="images/menu-icon.png" class="nav-menu" alt="" sizes="" srcset="" onclick="mennutoggle()">
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Discover the Latest<br> in Electronics</h1>
+                <p>Explore a wide range of products including mobiles, laptops, kitchen appliances, watches, and more.</p>
+
+                <a href="#deals-of-the-day" class="btn">Explore Now &#8594</a>
+            </div>
+            <div class="col-2">
+                <img class="hero-img" src="images/hero-img.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <main>
+    <div class="product-container">
+
+        <!-- DEAL OF THE DAY -->
+        <h2 id="deals-of-the-day" class="title">Deals of the Day</h2>
+        <div class="row">
+            <div class="col-4">
+                <img class="deals-1" src="images/deals-of-the-day-1.png" alt="">
+                <h4>ASUS ROG Strix G15 </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹1,19,990</p>
+            </div>
+
+            <div class="col-4">
+                <img class="deals-2" src="images/deals-of-the-day-2.png" alt="">
+                <h4>Lenovo Legion 5 </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹84,990</p>
+            </div>
+
+            <div class="col-4">
+                <img class="deals-3" src="images/deals-of-the-day-3.png" alt="">
+                <h4>ASUS TUF Gaming A15</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹62,990</p>
+            </div>
+
+            <div class="col-4">
+                <img class="deals-4" src="images/deals-of-the-day-4.png" alt="">
+                <h4>APPLE 2020 Macbook Air M1</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹81,990</p>
+            </div>
+        </div>
+
+                <!-- MOBILES -->
+                <h2 class="title">Mobiles</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="mobile-1" src="images/mobile-2.png" alt="">
+                        <h4>MOTOROLA e13</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹7,299</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="mobile-2" src="images/mobile-1.png" alt="">
+                        <h4>Realme 11x 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>₹14,999</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="mobile-3" src="images/mobile-3.png" alt="">
+                        <h4>POCO C55 </h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹8,499</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="mobile-4" src="images/mobile-4.png" alt="">
+                        <h4>Vivo V29e 5G</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹28,999</p>
+                    </div>
+                </div>
+
+            <!-- KITCHEN APPLIANCES -->
+        <h2 class="title">Kitchen Appliances</h2>
+        <div class="row">
+            <div class="col-4">
+                <img class="kitchen-1" src="images/kitchen-1.png" alt="">
+                <h4>HAVELLS Altro Electric Kettle</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹1,349</p>
+            </div>
+
+            <div class="col-4">
+                <img class="kitchen-2" src="images/kitchen-2.png" alt="">
+                <h4>Butterfly Rapid Plus 5J 750 W </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹3,299</p>
+            </div>
+
+            <div class="col-4">
+                <img class="kitchen-3" src="images/kitchen-3.png" alt="">
+                <h4>Pigeon Air Fryer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹3,319</p>
+            </div>
+
+            <div class="col-4">
+                <img class="kitchen-4" src="images/kitchen-4.png" alt="">
+                <h4>Livpure Elega-90 Chimney</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹9,499</p>
+            </div>
+        </div>
+
+                <!-- AUDIO -->
+                <h2 class="title">Audio</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="audio-1" src="images/audio-1.png" alt="">
+                        <h4>Realme Buds Air 5 Pro</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹4,999</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="audio-2" src="images/audio-2.png" alt="">
+                        <h4>BoAt Stone 580 Bluetooth Speaker</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>₹1,999</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="audio-3" src="images/audio-3.png" alt="">
+                        <h4>Cosmic Byte GS430 Gaming Headphone, 7 Color RGB LED</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹949</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="audio-4" src="images/audio-4.png" alt="">
+                        <h4>boAt Rockerz 255 Pro+</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹1,199</p>
+                    </div>
+                </div>
+
+                <!-- TELEVISIONS -->
+        <h2 class="title">Televisions</h2>
+        <div class="row">
+            <div class="col-4">
+                <img class="tele-1" src="images/tele-1.png" alt="">
+                <h4>SENS Dwinci 140 cm (55 inch) QLED Ultra HD (4K)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹35,999</p>
+            </div>
+
+            <div class="col-4">
+                <img class="tele-2" src="images/tele-2.png" alt="">
+                <h4>MOTOROLA EnvisionX 140 cm (55 inch) QLED Ultra HD (4K)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹37,999</p>
+            </div>
+
+            <div class="col-4">
+                <img class="tele-3" src="images/tele-3.png" alt="">
+                <h4>SENS Pikaso 140 cm (55 inch) Ultra HD (4K)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹30,999</p>
+            </div>
+
+            <div class="col-4">
+                <img class="tele-4" src="images/tele-4.png" alt="">
+                <h4>SAMSUNG Crystal Vision 108 cm (43 inch) Ultra HD (4K)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹33,990</p>
+            </div>
+        </div>
+
+                <!-- WEARABLES -->
+                <h2 class="title">Wearables</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="watch-1" src="images/watch-1.png" alt="">
+                        <h4>FIRE-BOLTT Talk 2 Pro</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹1,599</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="watch-2" src="images/watch-2.png" alt="">
+                        <h4>FIRE-BOLTT Cobra</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>₹2,799</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="watch-3" src="images/watch-3.png" alt="">
+                        <h4>G-Shock GWG-1000WLP-1ADR</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹49,995</p>
+                    </div>
+        
+                    <div class="col-4">
+                        <img class="watch-4" src="images/watch-4.png" alt="">
+                        <h4>G-Shock Carbon Core</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹9,195</p>
+                    </div>
+                </div>
+
+    </div>
+
+    <!-- BRANDS  -->
+    <div class="brands">
+        <div class="brands-container">
+            <div class="row">
+                <div class="col-5">
+                    <img class="footer-logo-1" src="images/footer-logo-1.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img class="footer-logo-2" src="images/footer-logo-4.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img class="footer-logo-3" src="images/footer-logo-3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img class="footer-logo-4" src="images/footer-logo-2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img class="footer-logo-5" src="images/footer-logo-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, optio!</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img class="footer-logo" src="images/main-logo.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, optio!</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="sub-footer">
+                    <p class="copyright">Copyright 2023 - Jayank Singh</p>
+                    <a href="#"><img src="/images/sub-footer-portfolio.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/jayank-singh/" target="_blank"><img src="images/sub-footer-linkedin_grey.png" alt="Linkedin"></a>
+                    <a href="https://github.com/thakurjay7" target="_blank"><img src="images/sub-footer-github_grey.png" alt="Github"></a>
+                    <a href="https://twitter.com/JayankSingh5" target="_blank"><img src="images/sub-footer-twitter_grey.png" alt="Twitter"></a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    var navContent = document.getElementById("navContent");
+navContent.style.maxHeight = "0px";
+
+function menutoggle() {
+    if (navContent.style.maxHeight === "0px") { 
+        navContent.style.maxHeight = "200px";
+    } else {
+        navContent.style.maxHeight = "0px";
+    }
+}
+
+    </script>
+</body>
+</html>
